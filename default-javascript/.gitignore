@@ -1,0 +1,6 @@
+.env
+!.env.example
+.DS_Store
+.react-router
+build
+node_modules
