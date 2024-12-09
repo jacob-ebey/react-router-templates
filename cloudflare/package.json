@@ -5,7 +5,7 @@
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "wrangler dev",
-    "typecheck": "react-router typegen && tsc --build --noEmit"
+    "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
     "@react-router/node": "*",
@@ -19,6 +19,7 @@
     "@cloudflare/workers-types": "^4.20241112.0",
     "@hiogawa/vite-node-miniflare": "0.1.1",
     "@react-router/dev": "*",
+    "@types/node": "^20",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "autoprefixer": "^10.4.20",

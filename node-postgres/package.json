@@ -7,7 +7,7 @@
     "db:migrate": "dotenv -- drizzle-kit migrate",
     "dev": "dotenv -- node server.js",
     "start": "node server.js",
-    "typecheck": "react-router typegen && tsc --build --noEmit"
+    "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
     "@react-router/express": "*",

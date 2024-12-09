@@ -4,7 +4,7 @@
   "scripts": {
     "build": "react-router build && node vercel/prepare.js",
     "dev": "cross-env NODE_ENV=development node ./dev-server.js",
-    "typecheck": "react-router typegen && tsc --build --noEmit"
+    "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
     "@react-router/express": "*",

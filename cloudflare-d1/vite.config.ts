@@ -21,6 +21,7 @@ export default defineConfig(({ isSsrBuild }) => ({
   ssr: {
     target: "webworker",
     noExternal: true,
+    external: ["node:async_hooks"],
     resolve: {
       conditions: ["workerd", "browser"],
     },

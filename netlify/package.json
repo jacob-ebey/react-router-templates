@@ -5,7 +5,7 @@
     "build": "react-router build && node netlify/prepare.js",
     "dev": "cross-env NODE_ENV=development node ./dev-server.js",
     "start": "netlify serve",
-    "typecheck": "react-router typegen && tsc --build --noEmit"
+    "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
     "@netlify/functions": "2.8.2",
@@ -24,6 +24,7 @@
     "autoprefixer": "^10.4.20",
     "cross-env": "^7.0.3",
     "express": "^4.21.1",
+    "netlify-cli": "^17.38.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15",
     "typescript": "^5.6.3",
