@@ -8,3 +8,6 @@
 # Cloudflare
 .mf
 .wrangler
+
+# TypeScript incremental compilation cache
+*.tsbuildinfo

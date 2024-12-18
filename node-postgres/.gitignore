@@ -5,3 +5,6 @@
 # React Router
 /.react-router/
 /build/
+
+# TypeScript incremental compilation cache
+*.tsbuildinfo
